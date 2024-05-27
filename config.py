@@ -6,34 +6,34 @@ from logging.handlers import RotatingFileHandler
 #Don't Edit Anything [Support @im_piro | @PiroHackz]
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7046087556:AAEXL3cXiHthuk5z-X7CXze7-2e7eU-otO8")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "10435103"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "c1003f5d2bf7594f6977c6b80f376eb9")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002008496197"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "819119516"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "")
-DB_NAME = os.environ.get("DATABASE_NAME", "RbyFile")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://RbyTheatreBot:RbyTheatreBot@cluster0.adpff9m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "RbyTheatreBot")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001780992747"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "c7a71a7ee6a1a4c435c3937b8243f1d3db4bc496")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "tnvalue.in")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "96bc75957ae5589c280f1a794e431a303c32373e")
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "𝗛𝗲𝗹𝗹𝗼 {mention}👋  𝗜 𝗛𝗮𝘃𝗲 𝗔𝗹𝗹 #𝗧𝗵𝗲𝗮𝘁𝗿𝗲 𝗠𝗼𝘃𝗶𝗲𝘀  𝗪𝗶𝘁𝗵 𝗔𝗹𝗹 𝗤𝘂𝗮𝗹𝗶𝘁𝗶𝗲𝘀 ... 🔥       «【  𝗙𝗼𝗿 𝗡𝗲𝘄 𝗠𝗼𝘃𝗶𝗲𝘀 ➳ @RbyLinkzz⚡ 】»  𝗦𝗵𝗮𝗿𝗲 𝗔𝗻𝗱 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 ❣️.")
